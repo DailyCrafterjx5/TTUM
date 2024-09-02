@@ -1,0 +1,57 @@
+.product {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.buy-button:hover {
+    background-color: #218838;
+}
+
+#payment-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+#payment-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#payment-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#payment-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#payment-form button:hover {
+    background-color: #218838;
+}
